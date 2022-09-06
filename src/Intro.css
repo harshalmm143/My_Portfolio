@@ -1,0 +1,104 @@
+.Intro-div {
+  margin-top: 7%;
+  flex-wrap: wrap;
+}
+
+.Intro-head {
+  font-family: "Varela", sans-serif;
+  margin: 0;
+  font-size: 32px;
+  color: #196fc2;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Intro-line {
+  position: relative;
+  font-family: "Varela", sans-serif;
+  margin: 15px 0 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+.section-background {
+  position: relative;
+  background-size: cover;
+  padding: 150px 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.section-background p {
+  position: relative;
+  margin: 10px 0 0;
+  color: #ffffff;
+}
+
+.section-quote {
+  background: url(./img/quote.jpg) center no-repeat fixed;
+}
+
+.section-quote p {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+.section-quote p span {
+  color: #196fc2;
+}
+
+.background-overlay:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+
+
+.animate__hinge {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+
+
+}
+
+
+.Intro-info {
+  margin-top: 5%;
+
+}
+
+.Intro-info h6 {
+  margin: 0;
+  font-family: "Varela", sans-serif;
+  position: relative;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 2%;
+}
+
+.Intro-info p {
+  font-size: 17px;
+  font-family: "varela", sans-serif;
+  font-style: italic;
+  margin-bottom: 10%;
+
+}
+
+.Intro-info i {
+  color: purple;
+}

@@ -1,0 +1,70 @@
+.asdf {
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.Cards {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+    padding: 2px 10px;
+    background: #fff;
+    cursor: pointer;
+    
+ 
+}
+
+.Cards:hover {
+    height: 300px;
+}
+
+.ImageBox {
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+    transform: translateY(-60px);
+    z-index: 99;
+    text-align: center;
+
+
+
+}
+
+.ImageBox h1 {
+    background-color: #fff;
+    z-index: 99;
+    color: blue;
+}
+
+.Images {
+    width: 100%;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.Content {
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-250px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.Cards:hover .Content {
+    opacity: 10;
+    transform: translateY(-90px);
+}
+
+.sm-button {
+    font-family: "Montserrat", sans-serif;
+    height: 40px;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.icons {
+    margin-top: -2%;
+}

@@ -1,0 +1,24 @@
+.About-Title {
+    text-align: center;
+    font-size: 30px;
+    color: #196fc2;
+    font-family: "Varela", sans-serif;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+
+.About-Subtitle {
+    position: relative;
+    font-family: "Varela", sans-serif;
+    margin: 15px 0 0;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+
+}
+

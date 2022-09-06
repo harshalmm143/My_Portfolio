@@ -1,0 +1,115 @@
+
+
+.service-top {
+  height: 170px;
+  width: 100%;
+  background-color: red;
+}
+
+
+.service-div {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+
+}
+
+.service-Container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+}
+
+.Carousel-image {
+  display: block;
+  width: 100%;
+  height: 530px;
+}
+
+.Image {
+  height: 45ex;
+  width: 70%;
+  float: left;
+  margin-left: -15%;
+  margin-bottom: 5%;
+  border: rgb(4, 4, 4) solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Carousel-icon {
+  height: 7%;
+  width: 7%;
+  float: left;
+  margin-left: 29%;
+  margin-right: -10%;
+}
+
+.Carousel-header {
+  font-family: "Varela", serif;
+  font-size: 30px;
+  color: rgb(17, 229, 102);
+  margin-left: 65%;
+  margin-right: -10%;
+  margin-top: 10%;
+
+
+}
+
+.Carousel-Disp {
+  font-family: "Varela", sans-serif;
+  font-size: 15px;
+  margin-left: 60%;
+  margin-right: -15%;
+  margin-top: 4%;
+
+}
+
+/* ////////////////////////////////////////// */
+
+.containerq {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 270px;
+  margin-bottom: 5%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .4s ease;
+}
+
+.containerq:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.car-cap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

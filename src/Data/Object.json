@@ -1,0 +1,15 @@
+{
+    "Body Types": {
+
+        "WebDevelopment": {
+            "slug": "WebDevelopment"
+        },
+        "MobileDevelopment": {
+            "slug": "MobileDevelopment"
+        },
+        "MobileApp": {
+            "slug": "MobileApp"
+        }
+        
+    }
+}

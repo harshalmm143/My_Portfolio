@@ -1,0 +1,33 @@
+.skill-col {
+
+    margin-bottom: 1.9rem !important;
+}
+
+
+.Skill-head {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: #196fc2;
+    font-family: "Varela", sans-serif;
+    flex-wrap: wrap;
+    margin-bottom: 8%;
+
+}
+
+.Skill-c {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+
+.Phead {
+    display: flex;
+    justify-content: space-between;
+    
+}
+

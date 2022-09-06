@@ -1,0 +1,131 @@
+.Contact-container{
+    margin-top: 6%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+}
+
+.Contact-row{
+    margin-top: 8%;
+    margin-left: 22%;
+}
+
+.Contact-title{
+    text-align: center;
+    font-size: 30px;
+    color:#196fc2;
+    font-family:"Varela", sans-serif;
+    flex-wrap: wrap;
+
+
+}
+
+.Contact-subtitle{
+  position: relative;
+  font-family: "Varela", sans-serif;
+  margin: 15px 0 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+
+
+}
+
+.Form-Control{
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    box-shadow: none;
+    border-radius: 0;
+    width: 23.7%;
+    flex-wrap: wrap;
+  }
+      
+.Form-Control:focus {
+    box-shadow: none;
+    border-bottom-color: #196fc2 !important;
+  }
+
+  textarea.Form-Control {
+    margin-top: 50px;
+    min-height: 150px;
+    width: 233%;
+ 
+  }
+
+  textarea.Form-Control:focus {
+    box-shadow: none;
+    border-bottom-color: #196fc2 !important;
+      
+  }
+  
+
+
+
+.Form{
+     
+     column-gap: 2%;
+     display: flex;
+     flex-wrap: wrap;
+    
+}
+.FormMassage{
+    column-count: 3;
+    
+}
+
+.Contact-button{
+    font-family: "Varela", sans-serif;
+    background-color: #ffffff;
+    padding: 0 15px;
+    color: #666;
+    height: 44px;
+    width: 75%;
+    line-height: 42px;
+    border-radius: 0;
+    border: 1px solid #196fc2;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.Contact-button:hover{
+    font-family: "Varela", sans-serif;
+    background-color: #196fc2;
+    padding: 0 15px;
+    color: #ffffff;
+    height: 44px;
+    width: 75%;
+    line-height: 42px;
+    border-radius: 0;
+    border: 1px solid #196fc2;
+    text-transform: uppercase;
+
+}
+  
+.footer-icon{
+  margin: 5px;
+  cursor: pointer;
+}
+
+.footer-icon:hover{
+  color: black;
+}
+
+.Flink {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+
+
+}
+
+.Flink:hover {
+  color: black;
+  border-bottom: 2px solid #c9fb15;
+  
+
+}
